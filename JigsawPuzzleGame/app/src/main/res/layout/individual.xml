@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EEE9E9" >
+    <RelativeLayout
+        android:id="@+id/individual_top_ace"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="#696969" >
+        <Button
+            android:id="@+id/ace_back_button"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/button2_back"/>
+        <TextView
+            android:id="@+id/individual_top_textview_ace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="个人中心"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:layout_marginRight="10sp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/save_button"
+            android:textColor="@color/main"
+            android:background="@drawable/btn_style_white"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/individual_L1_ace"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/individual_top_ace"
+        android:background="#fff"
+        android:layout_marginTop="10dp">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="头像"
+                android:textSize="25sp"
+                android:padding="10sp"
+                android:layout_centerVertical="true"
+                />
+        <ImageView
+            android:id="@+id/ace_tx_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentRight="true"
+            android:padding="10sp"
+            android:scaleType="fitXY"
+            />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="#EEE9E9">
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="昵称"
+                android:textSize="25sp"
+                android:padding="10sp"
+                android:layout_centerVertical="true"
+                />
+        <EditText
+            android:id="@+id/name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:padding="10sp"
+            android:text="普通玩家"
+            android:textSize="30sp"/>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="#EEE9E9">
+        </LinearLayout>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性别"
+        android:textSize="25sp"
+        android:padding="10sp"
+        android:layout_centerVertical="true"
+        />
+    <Switch
+        android:id="@+id/sex_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textOn="男"
+        android:textOff="女"
+        android:padding="10sp"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="#EEE9E9">
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="总分"
+                android:padding="10sp"
+                android:textSize="25sp"
+                android:layout_centerVertical="true"
+                />
+            <TextView
+                android:id="@+id/score_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="10sp"
+                android:layout_alignParentRight="true"
+                android:textSize="30sp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="#EEE9E9">
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="音响开关"
+                android:padding="10sp"
+                android:textSize="25sp"
+                android:layout_centerVertical="true"
+                />
+            <Switch
+                android:id="@+id/music_buton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="开"
+                android:textOff="关"
+                android:padding="10sp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="#EEE9E9">
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/ace_imagepacket_r"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:clickable="true"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/ace_imagepacket_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="我的图片包"
+                android:layout_centerVertical="true"
+                android:textSize="25sp" />
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:src="@drawable/enter"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="#EEE9E9">
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/ace_aboutus_r"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:background="#fff"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/ace_aboutus_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="关于我们"
+                android:layout_centerVertical="true"
+                android:textSize="25sp" />
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:src="@drawable/enter"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="#EEE9E9">
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

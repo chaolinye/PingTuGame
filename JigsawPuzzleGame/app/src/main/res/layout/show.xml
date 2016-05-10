@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE9E9">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="#696969" >
+        <Button
+            android:id="@+id/ace_back_button"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/button2_back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="图片展示"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        >
+        <TableRow>
+        <Button
+            android:id="@+id/show_select"
+            android:text="选择"
+            android:layout_margin="10dp"
+            android:layout_width="1dip"
+            android:visibility="gone"
+            android:textColor="@color/main"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_style_white"/>
+        <Button
+            android:id="@+id/show_delete"
+            android:text="删除"
+            android:textColor="@color/main"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_style_white"/>
+        </TableRow>
+    </TableLayout>
+    <ImageView
+        android:id="@+id/show_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+</LinearLayout>

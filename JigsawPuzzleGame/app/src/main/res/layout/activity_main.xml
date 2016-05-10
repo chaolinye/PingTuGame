@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_layout_shape"
+    android:orientation="vertical" tools:context=".MainActivity">
+
+    <com.promote.jigsawpuzzleview.JigsawPuzzleView
+        android:id="@+id/id_puzzle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/whole_back"
+        android:orientation="vertical">
+    </com.promote.jigsawpuzzleview.JigsawPuzzleView>
+
+    <!--
+    暂时还没有用，没有实现成功
+    <com.promote.jigsawpuzzleview.PuzzleGridView
+        android:id="@+id/id_gameview"
+        android:listSelector="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:verticalSpacing="10dip"
+        android:horizontalSpacing="10dip"
+        android:gravity="center"
+        android:numColumns="3" >
+    </com.promote.jigsawpuzzleview.PuzzleGridView>
+    -->
+
+</LinearLayout>

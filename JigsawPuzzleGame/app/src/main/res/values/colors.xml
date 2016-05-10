@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EFB7D3</color>
+    <color name="colorPrimaryDark">#EFB7D3</color>
+    <color name="colorAccent">#EFB7D3</color>
+
+    <color name="main">#111111</color>
+    <color name="main_txt">#ffffff</color>
+    <color name="main_btn">#ff3037</color>
+    <color name="main_borner">#dddddd</color>
+
+    <color name="pink_soft">#EFB7D3</color>
+    <color name="blue_skysoft">#87CEFA</color>
+    <color name="blue_soft">#72dcfa</color>
+    <color name="blue_hard">#34a4ce</color>
+    <color name="green_wechat">#53c84d</color>
+
+    <color name="white">#ffffff</color>
+
+</resources>
